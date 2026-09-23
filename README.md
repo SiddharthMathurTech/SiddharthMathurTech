@@ -13,12 +13,6 @@
 </p>
 
 
-<!-- Tech Stack Section -->
-<p align="center">
-  <img src="./tech-stack.svg" alt="Tech Stack" width="100%" />
-</p>
-
-
 Links of tools used :
 
 1. [⌨️ Readme Typing SVG](https://readme-typing-svg.herokuapp.com/demo/?weight=900&lines=How+vexingly+quick+daft+zebras+jump)
