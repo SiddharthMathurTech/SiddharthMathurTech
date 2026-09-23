@@ -1,0 +1,569 @@
+<svg
+  width="1200"
+  height="280"
+  viewBox="0 0 1200 280"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A970FF"/>
+      <stop offset="100%" stop-color="#7C4DFF"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card -->
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="278"
+    rx="14"
+    fill="#0B1119"
+    stroke="#263445"
+    stroke-width="2"
+  />
+
+  <!-- Top line -->
+  <line
+    x1="28"
+    y1="25"
+    x2="1172"
+    y2="25"
+    stroke="#233142"
+    stroke-width="2"
+  />
+
+  <!-- ============================================== -->
+  <!-- HEADER                                         -->
+  <!-- ============================================== -->
+
+  <!-- Stack icon -->
+  <g transform="translate(30 51)">
+    <path
+      d="M0 8L16 0L32 8L16 16L0 8Z"
+      fill="url(#purple)"
+    />
+    <path
+      d="M3 15L16 22L29 15"
+      stroke="#B178FF"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M3 22L16 29L29 22"
+      stroke="#8D63E8"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+
+  <!-- Header -->
+  <text
+    x="78"
+    y="76"
+    fill="#E4E7EF"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="24"
+    font-weight="700"
+  >
+    Tech stack
+  </text>
+
+  <text
+    x="1145"
+    y="72"
+    text-anchor="end"
+    fill="#77849A"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="14"
+    font-weight="500"
+  >
+    Tools and technologies I work with
+  </text>
+
+
+  <!-- ============================================== -->
+  <!-- SECTION HEADINGS                               -->
+  <!-- ============================================== -->
+
+  <g
+    fill="#A99CD9"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="15"
+    font-weight="700"
+  >
+    <text x="30" y="125">Languages</text>
+    <text x="285" y="125">Backend</text>
+    <text x="480" y="125">Frontend</text>
+    <text x="620" y="125">AI / ML</text>
+    <text x="865" y="125">Infrastructure</text>
+  </g>
+
+
+  <!-- ============================================== -->
+  <!-- DIVIDERS                                       -->
+  <!-- ============================================== -->
+
+  <line x1="260" y1="108" x2="260" y2="235"
+        stroke="#263445" stroke-width="2"/>
+
+  <line x1="455" y1="108" x2="455" y2="235"
+        stroke="#263445" stroke-width="2"/>
+
+  <line x1="595" y1="108" x2="595" y2="235"
+        stroke="#263445" stroke-width="2"/>
+
+  <line x1="840" y1="108" x2="840" y2="235"
+        stroke="#263445" stroke-width="2"/>
+
+
+  <!-- ============================================== -->
+  <!-- LANGUAGES                                      -->
+  <!-- ============================================== -->
+
+  <!-- Python -->
+  <g transform="translate(32 145)">
+    <circle cx="22" cy="22" r="21" fill="#111B26"/>
+    <path
+      d="M12 20C12 13 15 9 22 9H29V16H20C17 16 16 17 16 20V23H12V20Z"
+      fill="#4B8BBE"
+    />
+    <path
+      d="M32 24C32 31 29 35 22 35H15V28H24C27 28 28 27 28 24V21H32V24Z"
+      fill="#FFD43B"
+    />
+    <circle cx="25" cy="12" r="1.6" fill="#EAF3FA"/>
+    <circle cx="19" cy="32" r="1.6" fill="#EAF3FA"/>
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >Python</text>
+  </g>
+
+
+  <!-- Java -->
+  <g transform="translate(105 145)">
+    <circle cx="22" cy="22" r="21" fill="#111B26"/>
+
+    <path
+      d="M17 13C21 9 27 9 25 5"
+      stroke="#F89820"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+
+    <path
+      d="M20 17C26 14 30 13 27 9"
+      stroke="#F89820"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+
+    <path
+      d="M14 21H28C27 30 24 33 21 33C17 33 15 29 14 21Z"
+      stroke="#5382A1"
+      stroke-width="2"
+      fill="none"
+    />
+
+    <path
+      d="M28 23C34 22 34 28 28 29"
+      stroke="#5382A1"
+      stroke-width="2"
+      fill="none"
+    />
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >Java</text>
+  </g>
+
+
+  <!-- JavaScript -->
+  <g transform="translate(180 145)">
+    <rect
+      x="2"
+      y="2"
+      width="40"
+      height="40"
+      rx="5"
+      fill="#F7DF1E"
+    />
+
+    <text
+      x="22"
+      y="31"
+      text-anchor="middle"
+      fill="#151515"
+      font-family="Arial, sans-serif"
+      font-size="20"
+      font-weight="800"
+    >JS</text>
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >JavaScript</text>
+  </g>
+
+
+  <!-- ============================================== -->
+  <!-- BACKEND                                        -->
+  <!-- ============================================== -->
+
+  <!-- FastAPI -->
+  <g transform="translate(292 145)">
+    <circle cx="22" cy="22" r="21" fill="#05998B"/>
+
+    <path
+      d="M24 7L13 24H21L18 37L32 18H24L24 7Z"
+      fill="#07191A"
+    />
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >FastAPI</text>
+  </g>
+
+
+  <!-- Spring Boot -->
+  <g transform="translate(365 145)">
+    <circle cx="22" cy="22" r="21" fill="#111B26"/>
+
+    <path
+      d="M34 10C20 10 10 17 10 27C10 34 17 38 23 34C29 30 31 22 34 10Z"
+      fill="#6DB33F"
+    />
+
+    <path
+      d="M13 31C20 24 25 20 34 16"
+      stroke="#DFF5CF"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >Spring Boot</text>
+  </g>
+
+
+  <!-- ============================================== -->
+  <!-- FRONTEND                                       -->
+  <!-- ============================================== -->
+
+  <!-- React -->
+  <g transform="translate(495 145)">
+    <circle cx="22" cy="22" r="4" fill="#61DAFB"/>
+
+    <ellipse
+      cx="22"
+      cy="22"
+      rx="20"
+      ry="8"
+      stroke="#61DAFB"
+      stroke-width="2"
+      fill="none"
+    />
+
+    <ellipse
+      cx="22"
+      cy="22"
+      rx="20"
+      ry="8"
+      transform="rotate(60 22 22)"
+      stroke="#61DAFB"
+      stroke-width="2"
+      fill="none"
+    />
+
+    <ellipse
+      cx="22"
+      cy="22"
+      rx="20"
+      ry="8"
+      transform="rotate(-60 22 22)"
+      stroke="#61DAFB"
+      stroke-width="2"
+      fill="none"
+    />
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >React</text>
+  </g>
+
+
+  <!-- ============================================== -->
+  <!-- AI / ML                                        -->
+  <!-- ============================================== -->
+
+  <!-- LangChain -->
+  <g transform="translate(625 145)">
+    <circle cx="22" cy="22" r="21" fill="#111B26"/>
+
+    <path
+      d="M12 25L18 19C21 16 25 16 28 19"
+      stroke="#E7E4F4"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+
+    <path
+      d="M32 19L26 25C23 28 19 28 16 25"
+      stroke="#A98FFF"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >LangChain</text>
+  </g>
+
+
+  <!-- LangGraph -->
+  <g transform="translate(695 145)">
+    <circle cx="22" cy="22" r="21" fill="#111B26"/>
+
+    <circle cx="22" cy="10" r="4" fill="#A98FFF"/>
+    <circle cx="11" cy="29" r="4" fill="#A98FFF"/>
+    <circle cx="33" cy="29" r="4" fill="#A98FFF"/>
+
+    <path
+      d="M20 14L13 25M24 14L31 25M15 29H29"
+      stroke="#CFC4FF"
+      stroke-width="2"
+    />
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >LangGraph</text>
+  </g>
+
+
+  <!-- FAISS -->
+  <g transform="translate(765 145)">
+    <circle cx="22" cy="22" r="21" fill="#111B26"/>
+
+    <ellipse cx="22" cy="12" rx="10" ry="4"
+             fill="#9B8CFF"/>
+
+    <path
+      d="M12 12V20C12 23 32 23 32 20V12"
+      fill="#8575E8"
+    />
+
+    <ellipse cx="22" cy="20" rx="10" ry="4"
+             fill="#AA9AFF"/>
+
+    <path
+      d="M12 20V28C12 31 32 31 32 28V20"
+      fill="#7868D5"
+    />
+
+    <ellipse cx="22" cy="28" rx="10" ry="4"
+             fill="#B8AAFF"/>
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >FAISS</text>
+  </g>
+
+
+  <!-- ============================================== -->
+  <!-- INFRASTRUCTURE                                 -->
+  <!-- ============================================== -->
+
+  <!-- AWS -->
+  <g transform="translate(875 145)">
+    <circle cx="22" cy="22" r="21" fill="#111B26"/>
+
+    <text
+      x="22"
+      y="22"
+      text-anchor="middle"
+      fill="#EAEFF6"
+      font-family="Arial, sans-serif"
+      font-size="14"
+      font-weight="700"
+    >aws</text>
+
+    <path
+      d="M10 28C18 34 28 34 35 28"
+      stroke="#FF9900"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >AWS</text>
+  </g>
+
+
+  <!-- Docker -->
+  <g transform="translate(945 145)">
+    <circle cx="22" cy="22" r="21" fill="#111B26"/>
+
+    <g fill="#2496ED">
+      <rect x="9" y="14" width="6" height="6"/>
+      <rect x="17" y="14" width="6" height="6"/>
+      <rect x="25" y="14" width="6" height="6"/>
+
+      <rect x="17" y="6" width="6" height="6"/>
+      <rect x="25" y="6" width="6" height="6"/>
+
+      <path d="M7 22H35C33 31 27 35 20 35C13 35 9 30 7 22Z"/>
+    </g>
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >Docker</text>
+  </g>
+
+
+  <!-- Redis -->
+  <g transform="translate(1015 145)">
+    <circle cx="22" cy="22" r="21" fill="#111B26"/>
+
+    <path
+      d="M7 14L22 7L37 14L22 21L7 14Z"
+      fill="#D82C20"
+    />
+
+    <path
+      d="M7 21L22 28L37 21"
+      stroke="#EF3E2C"
+      stroke-width="4"
+      stroke-linejoin="round"
+    />
+
+    <path
+      d="M7 28L22 35L37 28"
+      stroke="#A91E18"
+      stroke-width="4"
+      stroke-linejoin="round"
+    />
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="12"
+    >Redis</text>
+  </g>
+
+
+  <!-- PostgreSQL -->
+  <g transform="translate(1085 145)">
+    <circle cx="22" cy="22" r="21" fill="#111B26"/>
+
+    <path
+      d="M14 12
+         C17 7 28 7 32 12
+         C36 17 34 28 29 31
+         C26 33 25 29 25 25
+         C21 29 16 28 13 24
+         C10 20 11 15 14 12Z"
+      stroke="#669ACB"
+      stroke-width="2.5"
+      fill="none"
+    />
+
+    <path
+      d="M25 25C29 24 31 22 32 18"
+      stroke="#669ACB"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+
+    <text
+      x="22"
+      y="62"
+      text-anchor="middle"
+      fill="#C8CEDA"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="11"
+    >PostgreSQL</text>
+  </g>
+
+
+  <!-- Bottom line -->
+  <line
+    x1="28"
+    y1="255"
+    x2="1172"
+    y2="255"
+    stroke="#233142"
+    stroke-width="2"
+  />
+
+</svg>
