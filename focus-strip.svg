@@ -1,0 +1,84 @@
+<svg width="1000" height="140" viewBox="0 0 1000 140" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="1000" height="140" rx="10" fill="#0C121A"/>
+
+  <!-- Side borders -->
+  <path d="M24 0V140" stroke="#1C2A3A" stroke-width="2"/>
+  <path d="M976 0V140" stroke="#1C2A3A" stroke-width="2"/>
+
+  <!-- Bottom line -->
+  <path d="M50 114H950" stroke="#263447" stroke-width="2"/>
+
+  <!-- Separators -->
+  <path d="M347 38V88" stroke="#344154" stroke-width="2"/>
+  <path d="M654 38V88" stroke="#344154" stroke-width="2"/>
+
+  <!-- Book icon -->
+  <g transform="translate(66 44)"
+     stroke="#B07CFF"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <path d="M0 2C10 -1 20 0 27 6V34C20 29 10 28 0 31V2Z"/>
+    <path d="M54 2C44 -1 34 0 27 6V34C34 29 44 28 54 31V2Z"/>
+    <path d="M27 6V34"/>
+
+  </g>
+
+  <!-- Bar chart icon -->
+  <g transform="translate(384 47)" fill="#A55BFF">
+
+    <rect x="0" y="18" width="7" height="20" rx="1"/>
+    <rect x="12" y="9" width="7" height="29" rx="1"/>
+    <rect x="24" y="0" width="7" height="38" rx="1"/>
+
+  </g>
+
+  <!-- Brain icon -->
+  <g transform="translate(696 39)"
+     stroke="#B07CFF"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <path d="M23 4C17 4 13 8 13 14C8 14 4 18 4 24C4 29 7 33 11 34C8 42 13 49 20 49C24 49 27 47 29 44V11C28 7 26 4 23 4Z"/>
+
+    <path d="M35 4C41 4 45 8 45 14C50 14 54 18 54 24C54 29 51 33 47 34C50 42 45 49 38 49C34 49 31 47 29 44V11C30 7 32 4 35 4Z"/>
+
+    <path d="M13 14C18 14 21 17 21 21"/>
+    <path d="M45 14C40 14 37 17 37 21"/>
+
+    <path d="M11 34C16 34 20 31 20 27"/>
+    <path d="M47 34C42 34 38 31 38 27"/>
+
+    <path d="M29 18H24"/>
+    <path d="M29 31H34"/>
+
+  </g>
+
+  <!-- Text -->
+  <g fill="#C8C5D6"
+     font-family="Inter, Segoe UI, Arial, sans-serif"
+     font-size="17"
+     font-weight="600">
+
+    <text x="131" y="54">
+      <tspan x="131" dy="0">Multimodal RAG &amp;</tspan>
+      <tspan x="131" dy="25">LLM workflows</tspan>
+    </text>
+
+    <text x="440" y="54">
+      <tspan x="440" dy="0">Forecasting pipelines</tspan>
+      <tspan x="440" dy="25">&amp; production APIs</tspan>
+    </text>
+
+    <text x="759" y="54">
+      <tspan x="759" dy="0">Exploring deep</tspan>
+      <tspan x="759" dy="25">learning &amp; AWS</tspan>
+    </text>
+
+  </g>
+
+</svg>
