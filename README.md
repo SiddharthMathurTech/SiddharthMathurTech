@@ -1,16 +1,19 @@
-## Hi there 👋
 
-<!--
-**SiddharthMathurTech/SiddharthMathurTech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&pause=1000&width=600&lines=Hi%2C+I%E2%80%99m+Siddharth.+I+build+intelligent+systems.;I+turn+AI+models+into+real-world+applications.;I+build+scalable+APIs+and+seamless+web+experiences." alt="Typing SVG" /></a>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=11&pause=566136&color=566171&repeat=false&width=705&lines=I+Build+AI-powered+applications+scalable+APIs+and+data-intensive+interfaces)](https://git.io/typing-svg)
+
+
+
+Links of tools used :
+
+1. [⌨️ Readme Typing SVG](https://readme-typing-svg.herokuapp.com/demo/?weight=900&lines=How+vexingly+quick+daft+zebras+jump)
+2. 
+
+
+
+
+
+
