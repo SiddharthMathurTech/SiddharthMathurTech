@@ -1,0 +1,46 @@
+<svg width="330" height="82" viewBox="0 0 330 82"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <rect
+    x="1" y="1"
+    width="328" height="80"
+    rx="10"
+    fill="#0D141E"
+    stroke="#243244"
+    stroke-width="2"
+  />
+
+  <!-- LinkedIn icon -->
+  <rect x="28" y="23" width="35" height="35" rx="4" fill="#0A66C2"/>
+
+  <text
+    x="45.5"
+    y="49"
+    text-anchor="middle"
+    fill="white"
+    font-family="Arial, sans-serif"
+    font-size="23"
+    font-weight="700"
+  >in</text>
+
+  <!-- Text -->
+  <text
+    x="85"
+    y="48"
+    fill="#D3D7E2"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="17"
+    font-weight="500"
+  >LinkedIn</text>
+
+  <!-- Arrow -->
+  <path
+    d="M290 34L297 41L290 48"
+    stroke="#718096"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+</svg>
