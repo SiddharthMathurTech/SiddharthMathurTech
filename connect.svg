@@ -1,0 +1,351 @@
+<svg
+  width="1200"
+  height="250"
+  viewBox="0 0 1200 250"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <defs>
+    <!-- Card gradient -->
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D141E"/>
+      <stop offset="100%" stop-color="#0A1018"/>
+    </linearGradient>
+
+    <!-- Purple icon gradient -->
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B77CFF"/>
+      <stop offset="100%" stop-color="#8454E8"/>
+    </linearGradient>
+
+    <!-- Hover-like glow -->
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+
+  <!-- ===================================================== -->
+  <!-- MAIN CARD                                             -->
+  <!-- ===================================================== -->
+
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="248"
+    rx="13"
+    fill="#090F16"
+    stroke="#263445"
+    stroke-width="2"
+  />
+
+
+  <!-- ===================================================== -->
+  <!-- TOP BORDER                                            -->
+  <!-- ===================================================== -->
+
+  <line
+    x1="30"
+    y1="28"
+    x2="1170"
+    y2="28"
+    stroke="#29384A"
+    stroke-width="2"
+  />
+
+
+  <!-- ===================================================== -->
+  <!-- HEADER ICON                                           -->
+  <!-- ===================================================== -->
+
+  <g
+    transform="translate(33 51)"
+    stroke="url(#purple)"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  >
+    <path
+      d="M15 20L10 25C6 29 0 29 -4 25
+         C-8 21 -8 15 -4 11
+         L3 4C7 0 13 0 17 4"
+    />
+
+    <path
+      d="M11 15L16 10C20 6 26 6 30 10
+         C34 14 34 20 30 24
+         L23 31C19 35 13 35 9 31"
+    />
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- HEADER TEXT                                           -->
+  <!-- ===================================================== -->
+
+  <text
+    x="82"
+    y="75"
+    fill="#E5E7EE"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="25"
+    font-weight="700"
+  >
+    Connect
+  </text>
+
+
+  <!-- Right subtitle -->
+  <text
+    x="1160"
+    y="72"
+    text-anchor="end"
+    fill="#7C89A2"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="14"
+    font-weight="500"
+  >
+    Open to AI/ML engineering opportunities.
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- LINKEDIN CARD                                         -->
+  <!-- ===================================================== -->
+
+  <!-- REPLACE LINKEDIN_URL -->
+  <a href="LINKEDIN_URL" target="_blank">
+
+    <rect
+      x="30"
+      y="105"
+      width="350"
+      height="82"
+      rx="10"
+      fill="url(#cardBg)"
+      stroke="#243346"
+      stroke-width="2"
+    />
+
+    <!-- LinkedIn icon -->
+    <rect
+      x="65"
+      y="128"
+      width="36"
+      height="36"
+      rx="3"
+      fill="#0A66C2"
+    />
+
+    <text
+      x="83"
+      y="154"
+      text-anchor="middle"
+      fill="white"
+      font-family="Arial, sans-serif"
+      font-size="23"
+      font-weight="700"
+    >
+      in
+    </text>
+
+    <!-- Label -->
+    <text
+      x="130"
+      y="154"
+      fill="#D4D8E2"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="18"
+      font-weight="500"
+    >
+      LinkedIn
+    </text>
+
+    <!-- Arrow -->
+    <path
+      d="M337 137L345 146L337 155"
+      stroke="#77869A"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+  </a>
+
+
+  <!-- ===================================================== -->
+  <!-- PORTFOLIO CARD                                        -->
+  <!-- ===================================================== -->
+
+  <!-- REPLACE PORTFOLIO_URL -->
+  <a href="PORTFOLIO_URL" target="_blank">
+
+    <rect
+      x="425"
+      y="105"
+      width="350"
+      height="82"
+      rx="10"
+      fill="url(#cardBg)"
+      stroke="#243346"
+      stroke-width="2"
+    />
+
+    <!-- Link icon -->
+    <g
+      transform="translate(467 126)"
+      stroke="#A970FF"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    >
+      <path
+        d="M15 22L10 27
+           C6 31 0 31 -4 27
+           C-8 23 -8 17 -4 13
+           L3 6
+           C7 2 13 2 17 6"
+      />
+
+      <path
+        d="M11 17L16 12
+           C20 8 26 8 30 12
+           C34 16 34 22 30 26
+           L23 33
+           C19 37 13 37 9 33"
+      />
+    </g>
+
+    <!-- Label -->
+    <text
+      x="530"
+      y="154"
+      fill="#D4D8E2"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="18"
+      font-weight="500"
+    >
+      Portfolio
+    </text>
+
+    <!-- Arrow -->
+    <path
+      d="M732 137L740 146L732 155"
+      stroke="#77869A"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+  </a>
+
+
+  <!-- ===================================================== -->
+  <!-- EMAIL CARD                                            -->
+  <!-- ===================================================== -->
+
+  <!-- REPLACE EMAIL_ADDRESS -->
+  <a href="mailto:EMAIL_ADDRESS">
+
+    <rect
+      x="820"
+      y="105"
+      width="350"
+      height="82"
+      rx="10"
+      fill="url(#cardBg)"
+      stroke="#243346"
+      stroke-width="2"
+    />
+
+    <!-- Email icon -->
+    <rect
+      x="855"
+      y="130"
+      width="38"
+      height="30"
+      rx="3"
+      fill="url(#purple)"
+    />
+
+    <!-- Envelope fold -->
+    <path
+      d="M858 133L874 146L890 133"
+      stroke="#31204A"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <!-- Label -->
+    <text
+      x="925"
+      y="154"
+      fill="#D4D8E2"
+      font-family="Inter, Segoe UI, Arial, sans-serif"
+      font-size="18"
+      font-weight="500"
+    >
+      Email
+    </text>
+
+    <!-- Arrow -->
+    <path
+      d="M1127 137L1135 146L1127 155"
+      stroke="#77869A"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+  </a>
+
+
+  <!-- ===================================================== -->
+  <!-- BOTTOM DIVIDER                                        -->
+  <!-- ===================================================== -->
+
+  <line
+    x1="30"
+    y1="207"
+    x2="1170"
+    y2="207"
+    stroke="#29384A"
+    stroke-width="2"
+  />
+
+
+  <!-- ===================================================== -->
+  <!-- FOOTER                                                -->
+  <!-- ===================================================== -->
+
+  <text
+    x="32"
+    y="231"
+    fill="#7E899F"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="14"
+  >
+    Thanks for visiting! ⭐
+  </text>
+
+  <text
+    x="1165"
+    y="231"
+    text-anchor="end"
+    fill="#7E899F"
+    font-family="Inter, Segoe UI, Arial, sans-serif"
+    font-size="14"
+  >
+    Always learning. Always building.
+  </text>
+
+</svg>
